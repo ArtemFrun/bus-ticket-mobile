@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, TextInput, FlatList, TouchableOpacity, Modal, Pressable } from 'react-native';
+import { StyleSheet, Text, View, TextInput, FlatList, TouchableOpacity, Modal, Pressable, Image } from 'react-native';
 import Checkbox from 'expo-checkbox';
 import React from 'react';
 
@@ -7,7 +7,7 @@ export const Ticket = ({navigation, route}) => {
     const [ticket, setTicket] = React.useState();
     const [name, setName] = React.useState("");
     const [surname, setSurname] = React.useState("");
-    const [place, setPlace] = React.useState();
+    const [selectPlace, setPlace] = React.useState(0);
     const [noteText, setNoteText] = React.useState();
     const [email, setEmail]= React.useState();
     const [phone, setPhone] = React.useState();
@@ -19,6 +19,13 @@ export const Ticket = ({navigation, route}) => {
     const consoleLog = (value) => {
         console.log(value);
     };
+
+    const ChosePlace = (value) =>{
+        setPlace(value);
+        setModalVisible(!modalVisible);
+        setIsChosePlace(true);
+        setBottonName('Змінити місце ('+value+')')
+    }
   
 
     React.useEffect(() => {
@@ -80,7 +87,7 @@ return (
                             </TouchableOpacity>
                             <TouchableOpacity 
                                 style={[isChosePlace ? styles.displayFl : styles.displayNone,styles.buttonStyle, styles.elementCenter]} 
-                                onPress={() => console.log('chose')} >
+                                onPress={() => setModalVisible(true)} >
                                 <Text style={[styles.buttonTextStyle, styles.bigText]}>{buttonName}</Text>
                             </TouchableOpacity>
                             <Modal
@@ -93,25 +100,59 @@ return (
                                     <View style={styles.modalView}>
                                         <View></View>
                                         <View>
-                                            {item.busTempl.matrix[0].map((places) => {
+                                             {item.busTempl.matrix[0][0].map((place, index) => {
                                                 return (
-                                                    <View style={styles.displayFl}>
-                                                        {places.map((place) =>{
-                                                            return (
-                                                                <View style={styles.displayFl}>
+                                                    <View >
+                                                        <View style={styles.displayFlRowRev}>
+                                                            {item.busTempl.matrix[0].map((places) =>{
+                                                                return (
+                                                                    <View >{(index !== 0 ? 
                                                                     <View>
-                                                                        <Text>{place.n}</Text>
+                                                                         {( typeof(places[index].n) !== 'undefined' ?
+                                                                         <View>
+                                                                            {(places[index].free == 1 ? 
+                                                                            <View>
+                                                                                {(places[index].n === selectPlace ? 
+                                                                                <View>
+                                                                                    <TouchableOpacity style={[styles.positionRelative, styles.paddintItems]}
+                                                                                     onPress={() => ChosePlace(places[index].n)}>
+                                                                                        <Text style={[styles.positionNumber, styles.boldText]}>{places[index].n}</Text>
+                                                                                        <Image style={styles.imageStyle} source={require('../image/place-select.png')}></Image>
+                                                                                    </TouchableOpacity>
+                                                                                </View> 
+                                                                                : 
+                                                                                <View>
+                                                                                     <TouchableOpacity style={[styles.positionRelative, styles.paddintItems]}
+                                                                                     onPress={() => ChosePlace(places[index].n)}>
+                                                                                        <Text style={[styles.positionNumber, styles.boldText]}>{places[index].n}</Text>
+                                                                                        <Image style={styles.imageStyle} source={require('../image/place-free.png')}></Image>
+                                                                                    </TouchableOpacity>
+                                                                                </View>
+                                                                                )}
+                                                                            </View> 
+                                                                            : 
+                                                                            <View>
+                                                                                <View style={[styles.positionRelative, styles.paddintItems]}>
+                                                                                    <Text style={[styles.positionNumber, styles.boldText]}>{places[index].n}</Text>
+                                                                                    <Image style={styles.imageStyle} source={require('../image/place-disabled.png')}></Image>
+                                                                                </View>
+                                                                            </View>
+                                                                            )}
+                                                                           
+                                                                         </View>
+                                                                        :
+                                                                            <View style={styles.paddintItems}>
+                                                                                <Text style={styles.emptyPlace}></Text>
+                                                                            </View>
+                                                                        )}
                                                                     </View>
-                                                                </View>
-                                                            )
-                                                        })}
-                                                        {/* <FlatList data={places} renderItem ={ (place) =>
-                                                        <View style={styles.displayFl}>
-                                                            <View>
-                                                                    <Text style={[styles.normalText, styles.textPrice]}>{place.item.n}</Text>
-                                                            </View>
+                                                                    : 
+                                                                    <View></View>)}               
+                                                                       
+                                                                    </View>
+                                                                )
+                                                            })}
                                                         </View>
-                                                        }/> */}
                                                     </View>
                                                 )
                                             })}
@@ -245,6 +286,27 @@ const styles = StyleSheet.create({
         paddingTop: 10,
         paddingBottom: 10
     },
+    displayFlRowRev:{
+        display: 'flex',
+        flexDirection: 'row-reverse',
+        flexWrap: "wrap",
+        // alignItems: 'center',
+        // flexBasis: 0,
+        // flexGrow: 1,
+        paddingTop: 10,
+        paddingBottom: 10
+    },
+    displayFlCol:{
+        display: 'flex',
+        flexDirection: 'column',
+        flexWrap: 'wrap',
+        alignItems: 'stretch',
+        // flexBasis: 0,
+        // flexGrow: 1,
+        flex:1,
+        paddingTop: 10,
+        paddingBottom: 10
+    },
     displayFlGr:{
         display: 'flex',
         flexDirection: 'row',
@@ -360,5 +422,25 @@ const styles = StyleSheet.create({
       modalText: {
         marginBottom: 15,
         textAlign: "center"
-      }
+      },
+      imageStyle: {
+        width: 40,
+        height: 40
+      },
+      emptyPlace:{
+        width: 40,
+        height: 40
+      },
+      positionRelative: {
+        position: 'relative'
+        },
+      positionNumber: {
+        position: 'absolute',
+        left: '95%',
+        top: '25%',
+        // alignSelf: 'center',
+        color: '#ffffff',
+        zIndex: 1,
+        transform: [{ translateX: -10 }]
+      },
   });
