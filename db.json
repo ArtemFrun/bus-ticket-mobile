@@ -1,0 +1,2146 @@
+    {"bus":[{
+      "id": 7508,
+      "tripId": "eyJpZCI6ImV5SjBjbWx3WDJsa0lqbzNOVEE0TENKbWNtOXRYMmxrSWpvME9Td2lkRzlmYVdRaU9qSXhmUT09IiwiZGF0ZSI6IjIwMjItMTEtMjkifQ==",
+      "busName": "6949 Mersedes(20)",
+      "carrier": "Denysivka",
+      "carrIds": [
+        {
+          "id": 100,
+          "name": "Denysivka"
+        }
+      ],
+      "chg": 0,
+      "chgSt": "",
+      "curName": "грн",
+      "currency": "UAH",
+      "dtArr": "2022-11-29 13:10",
+      "dtArrSec": 1669720200,
+      "dtDep": "2022-11-29 10:55",
+      "dtDepSec": 1669712100,
+      "places": 19,
+      "price": "93",
+      "discPrice": "93",
+      "fullPrice": "93",
+      "racename": "115 Чернівці Трускавець",
+      "racenum": "115",
+      "stArrAddr": "Антоненка-Давидовича вул. 15",
+      "stArrName": "Коломия АС",
+      "stDepAddr": "Головна вул. 219",
+      "stDepName": "Чернівці АС1",
+      "stArrLat": "48.52503",
+      "stArrLong": "25.026548",
+      "stDepLat": "48.264936",
+      "stDepLong": "25.951816",
+      "wayTimeH": 2,
+      "wayTimeM": 160,
+      "wayTimeSec": 9600,
+      "raceDescr": [],
+      "refrules": [
+        {
+          "id": 86400,
+          "perc": 86,
+          "sumRet": "79.98"
+        },
+        {
+          "id": 7200,
+          "perc": 86,
+          "sumRet": "79.98"
+        },
+        {
+          "id": 600,
+          "perc": 86,
+          "sumRet": "79.98"
+        },
+        {
+          "id": -10800,
+          "perc": 70,
+          "sumRet": "65.10"
+        },
+        {
+          "id": 0,
+          "perc": 70,
+          "sumRet": "65.10"
+        },
+        {
+          "id": -999999999,
+          "sumRet": "93",
+          "perc": 100
+        }
+      ],
+      "route": {
+        "forward": [
+          {
+            "changehours": "",
+            "changeminutes": "",
+            "currName": "грн",
+            "currency": "UAH",
+            "maxPercent": 0,
+            "minPrice": 12,
+            "price": 313,
+            "regular": {
+              "id": 1,
+              "name": "Кожен день",
+              "today": 1
+            },
+            "depDates": [
+              [
+                "2022-11-29",
+                "2022-11-30",
+                "2022-12-01",
+                "2022-12-02",
+                "2022-12-03",
+                "2022-12-04",
+                "2022-12-05",
+                "2022-12-06",
+                "2022-12-07",
+                "2022-12-08"
+              ]
+            ],
+            "info": {
+              "bus": "5027 Mersedes(30)",
+              "comfort": "",
+              "refund": [
+                "За 1 день до виїзду",
+                "За 2 години до виїзду",
+                "За 10 хв. до виїзду",
+                "До 3 годин після виїзду",
+                "Менше 10 хв до виїзду"
+              ]
+            },
+            "raceName": "115 Чернівці Трускавець",
+            "raceNum": "115",
+            "route": [
+              {
+                "stArrName": "Чернівці АС1",
+                "stCode": 49,
+                "distance": 0,
+                "timeArr": "",
+                "timeDep": "10:55",
+                "price": "",
+                "city": "Чернівці",
+                "cityEn": "Чернівці",
+                "cityCode": 64721,
+                "descript": ""
+              },
+              {
+                "stArrName": "Снятин АС",
+                "stCode": 48,
+                "distance": 47,
+                "timeArr": "12:05",
+                "timeDep": "12:10",
+                "price": "",
+                "city": "Снятин",
+                "cityEn": "Снятин",
+                "cityCode": 64720,
+                "descript": ""
+              },
+              {
+                "stArrName": "Коломия АС",
+                "stCode": 21,
+                "distance": 89,
+                "timeArr": "13:10",
+                "timeDep": "13:35",
+                "price": "",
+                "city": "Коломия",
+                "cityEn": "Коломия",
+                "cityCode": 64694,
+                "descript": ""
+              },
+              {
+                "stArrName": "Івано-Франківськ АС2",
+                "stCode": 11,
+                "distance": 159,
+                "timeArr": "15:05",
+                "timeDep": "15:35",
+                "price": "",
+                "city": "Івано Франківськ",
+                "cityEn": "Івано Франківськ",
+                "cityCode": 64684,
+                "descript": ""
+              },
+              {
+                "stArrName": "Калуш АС",
+                "stCode": 42,
+                "distance": 191,
+                "timeArr": "16:10",
+                "timeDep": "16:20",
+                "price": "",
+                "city": "Калуш",
+                "cityEn": "Калуш",
+                "cityCode": 64714,
+                "descript": ""
+              },
+              {
+                "stArrName": "Брошнів АС",
+                "stCode": 41,
+                "distance": 203,
+                "timeArr": "16:35",
+                "timeDep": "16:40",
+                "price": "",
+                "city": "Брошнів",
+                "cityEn": "Брошнів",
+                "cityCode": 64713,
+                "descript": ""
+              },
+              {
+                "stArrName": "Долина АС",
+                "stCode": 40,
+                "distance": 221,
+                "timeArr": "17:05",
+                "timeDep": "17:15",
+                "price": "",
+                "city": "Долина",
+                "cityEn": "Долина",
+                "cityCode": 64712,
+                "descript": ""
+              },
+              {
+                "stArrName": "Моршин АС",
+                "stCode": 72,
+                "distance": 248,
+                "timeArr": "17:55",
+                "timeDep": "18:05",
+                "price": "",
+                "city": "Моршин",
+                "cityEn": "Моршин",
+                "cityCode": 64742,
+                "descript": ""
+              },
+              {
+                "stArrName": "Стрий АС ЗВ",
+                "stCode": 39,
+                "distance": 263,
+                "timeArr": "18:30",
+                "timeDep": "18:35",
+                "price": "",
+                "city": "Стрий",
+                "cityEn": "Стрий",
+                "cityCode": 64711,
+                "descript": ""
+              },
+              {
+                "stArrName": "Дрогобич АС",
+                "stCode": 29,
+                "distance": 289,
+                "timeArr": "19:15",
+                "timeDep": "19:20",
+                "price": "",
+                "city": "Дрогобич",
+                "cityEn": "Дрогобич",
+                "cityCode": 64702,
+                "descript": ""
+              },
+              {
+                "stArrName": "Трускавець АС",
+                "stCode": 30,
+                "distance": 302,
+                "timeArr": "19:35",
+                "timeDep": "",
+                "price": "",
+                "city": "Трускавець",
+                "cityEn": "Трускавець",
+                "cityCode": 64703,
+                "descript": ""
+              }
+            ],
+            "refrules": [
+              {
+                "id": 1,
+                "perc": 86,
+                "sumRet": "269.18"
+              },
+              {
+                "id": 9,
+                "perc": 86,
+                "sumRet": "269.18"
+              },
+              {
+                "id": 10,
+                "perc": 86,
+                "sumRet": "269.18"
+              },
+              {
+                "id": 11,
+                "perc": 70,
+                "sumRet": "219.10"
+              },
+              {
+                "id": 12,
+                "perc": 70,
+                "sumRet": "219.10"
+              },
+              {
+                "id": -999999999,
+                "sumRet": 313,
+                "perc": 100
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 9148,
+      "tripId": "eyJpZCI6ImV5SjBjbWx3WDJsa0lqbzVNVFE0TENKbWNtOXRYMmxrSWpvME9Td2lkRzlmYVdRaU9qSXhmUT09IiwiZGF0ZSI6IjIwMjItMTEtMjkifQ==",
+      "busName": "0672 MAN (29)",
+      "carrier": "Denysivka",
+      "carrIds": [
+        {
+          "id": 100,
+          "name": "Denysivka"
+        }
+      ],
+      "chg": 0,
+      "chgSt": "",
+      "curName": "грн",
+      "currency": "UAH",
+      "dtArr": "2022-11-29 10:40",
+      "dtArrSec": 1669711200,
+      "dtDep": "2022-11-29 08:25",
+      "dtDepSec": 1669703100,
+      "places": 27,
+      "price": "89",
+      "discPrice": "89",
+      "fullPrice": "89",
+      "racename": "112 Чернівці Ужгород",
+      "racenum": "112",
+      "stArrAddr": "Антоненка-Давидовича вул. 15",
+      "stArrName": "Коломия АС",
+      "stDepAddr": "Головна вул. 219",
+      "stDepName": "Чернівці АС1",
+      "stArrLat": "48.52503",
+      "stArrLong": "25.026548",
+      "stDepLat": "48.264936",
+      "stDepLong": "25.951816",
+      "wayTimeH": 2,
+      "wayTimeM": 145,
+      "wayTimeSec": 8700,
+      "raceDescr": [],
+      "refrules": [
+        {
+          "id": 86400,
+          "perc": 86,
+          "sumRet": "76.54"
+        },
+        {
+          "id": 7200,
+          "perc": 86,
+          "sumRet": "76.54"
+        },
+        {
+          "id": 600,
+          "perc": 86,
+          "sumRet": "76.54"
+        },
+        {
+          "id": -10800,
+          "perc": 70,
+          "sumRet": "62.30"
+        },
+        {
+          "id": 0,
+          "perc": 70,
+          "sumRet": "62.30"
+        },
+        {
+          "id": -999999999,
+          "sumRet": "89",
+          "perc": 100
+        }
+      ],
+      "route": {
+        "forward": [
+          {
+            "changehours": "",
+            "changeminutes": "",
+            "currName": "грн",
+            "currency": "UAH",
+            "maxPercent": 0,
+            "minPrice": 41,
+            "price": 484,
+            "regular": {
+              "id": 1,
+              "name": "Кожен день",
+              "today": 1
+            },
+            "depDates": [
+              [
+                "2022-11-29",
+                "2022-11-30",
+                "2022-12-01",
+                "2022-12-02",
+                "2022-12-03",
+                "2022-12-04",
+                "2022-12-05",
+                "2022-12-06",
+                "2022-12-07",
+                "2022-12-08"
+              ]
+            ],
+            "info": {
+              "bus": "дальнего следования(30)",
+              "comfort": "",
+              "refund": [
+                "За 1 день до виїзду",
+                "За 2 години до виїзду",
+                "За 10 хв. до виїзду",
+                "До 3 годин після виїзду",
+                "Менше 10 хв до виїзду"
+              ]
+            },
+            "raceName": "112 Чернівці Ужгород",
+            "raceNum": "112",
+            "route": [
+              {
+                "stArrName": "Чернівці АС1",
+                "stCode": 49,
+                "distance": 0,
+                "timeArr": "",
+                "timeDep": "08:25",
+                "price": "",
+                "city": "Чернівці",
+                "cityEn": "Чернівці",
+                "cityCode": 64721,
+                "descript": ""
+              },
+              {
+                "stArrName": "Снятин АС",
+                "stCode": 48,
+                "distance": 47,
+                "timeArr": "09:35",
+                "timeDep": "09:40",
+                "price": "",
+                "city": "Снятин",
+                "cityEn": "Снятин",
+                "cityCode": 64720,
+                "descript": ""
+              },
+              {
+                "stArrName": "Коломия АС",
+                "stCode": 21,
+                "distance": 89,
+                "timeArr": "10:40",
+                "timeDep": "10:50",
+                "price": "",
+                "city": "Коломия",
+                "cityEn": "Коломия",
+                "cityCode": 64694,
+                "descript": ""
+              },
+              {
+                "stArrName": "Делятин",
+                "stCode": 22,
+                "distance": 125,
+                "timeArr": "11:40",
+                "timeDep": "11:45",
+                "price": "",
+                "city": "Делятин",
+                "cityEn": "Делятин",
+                "cityCode": 64695,
+                "descript": ""
+              },
+              {
+                "stArrName": "Яремче АС",
+                "stCode": 23,
+                "distance": 136,
+                "timeArr": "12:00",
+                "timeDep": "12:05",
+                "price": "",
+                "city": "Яремче",
+                "cityEn": "Яремче",
+                "cityCode": 64696,
+                "descript": ""
+              },
+              {
+                "stArrName": "Ясіня АС",
+                "stCode": 71,
+                "distance": 180,
+                "timeArr": "13:10",
+                "timeDep": "13:40",
+                "price": "",
+                "city": "Ясіня",
+                "cityEn": "Ясіня",
+                "cityCode": 64741,
+                "descript": ""
+              },
+              {
+                "stArrName": "Рахів АС",
+                "stCode": 70,
+                "distance": 212,
+                "timeArr": "14:30",
+                "timeDep": "14:35",
+                "price": "",
+                "city": "Рахів",
+                "cityEn": "Рахів",
+                "cityCode": 64740,
+                "descript": ""
+              },
+              {
+                "stArrName": "Солотвино АС",
+                "stCode": 68,
+                "distance": 260,
+                "timeArr": "16:00",
+                "timeDep": "16:05",
+                "price": "",
+                "city": "Солотвино",
+                "cityEn": "Солотвино",
+                "cityCode": 64738,
+                "descript": ""
+              },
+              {
+                "stArrName": "Тячів АС",
+                "stCode": 53,
+                "distance": 289,
+                "timeArr": "16:45",
+                "timeDep": "16:50",
+                "price": "",
+                "city": "Тячів",
+                "cityEn": "Тячів",
+                "cityCode": 64725,
+                "descript": ""
+              },
+              {
+                "stArrName": "Хуст АС",
+                "stCode": 54,
+                "distance": 318,
+                "timeArr": "17:20",
+                "timeDep": "17:30",
+                "price": "",
+                "city": "Хуст",
+                "cityEn": "Хуст",
+                "cityCode": 64726,
+                "descript": ""
+              },
+              {
+                "stArrName": "Мукачево АВ",
+                "stCode": 88,
+                "distance": 411,
+                "timeArr": "19:05",
+                "timeDep": "19:10",
+                "price": "",
+                "city": "Мукачево",
+                "cityEn": "Мукачево",
+                "cityCode": 64759,
+                "descript": ""
+              },
+              {
+                "stArrName": "Ужгород АС-1",
+                "stCode": 62,
+                "distance": 455,
+                "timeArr": "22:05",
+                "timeDep": "",
+                "price": "",
+                "city": "Ужгород",
+                "cityEn": "Ужгород",
+                "cityCode": 64733,
+                "descript": ""
+              }
+            ],
+            "refrules": [
+              {
+                "id": 1,
+                "perc": 86,
+                "sumRet": "415.90"
+              },
+              {
+                "id": 9,
+                "perc": 86,
+                "sumRet": "415.90"
+              },
+              {
+                "id": 10,
+                "perc": 86,
+                "sumRet": "415.90"
+              },
+              {
+                "id": 11,
+                "perc": 70,
+                "sumRet": "338.53"
+              },
+              {
+                "id": 12,
+                "perc": 70,
+                "sumRet": "338.53"
+              },
+              {
+                "id": -999999999,
+                "sumRet": 484,
+                "perc": 100
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 21266,
+      "tripId": "eyJpZCI6ImV5SjBjbWx3WDJsa0lqb3lNVEkyTml3aVpuSnZiVjlwWkNJNk5Ea3NJblJ2WDJsa0lqb3lNWDA9IiwiZGF0ZSI6IjIwMjItMTEtMjkifQ==",
+      "busName": "9961 Volvo(червоний)",
+      "carrier": "Denysivka",
+      "carrIds": [
+        {
+          "id": 100,
+          "name": "Denysivka"
+        }
+      ],
+      "chg": 0,
+      "chgSt": "",
+      "curName": "грн",
+      "currency": "UAH",
+      "dtArr": "2022-11-29 14:30",
+      "dtArrSec": 1669725000,
+      "dtDep": "2022-11-29 12:30",
+      "dtDepSec": 1669717800,
+      "places": 72,
+      "price": "122",
+      "discPrice": "122",
+      "fullPrice": "122",
+      "racename": "Чернівці Варшава",
+      "racenum": "115",
+      "stArrAddr": "Антоненка-Давидовича вул. 15",
+      "stArrName": "Коломия АС",
+      "stDepAddr": "Головна вул. 219",
+      "stDepName": "Чернівці АС1",
+      "stArrLat": "48.52503",
+      "stArrLong": "25.026548",
+      "stDepLat": "48.264936",
+      "stDepLong": "25.951816",
+      "wayTimeH": 2,
+      "wayTimeM": 125,
+      "wayTimeSec": 7500,
+      "raceDescr": [],
+      "refrules": [
+        {
+          "id": 86400,
+          "perc": 86,
+          "sumRet": "104.92"
+        },
+        {
+          "id": 7200,
+          "perc": 86,
+          "sumRet": "104.92"
+        },
+        {
+          "id": 600,
+          "perc": 86,
+          "sumRet": "104.92"
+        },
+        {
+          "id": -10800,
+          "perc": 70,
+          "sumRet": "85.40"
+        },
+        {
+          "id": 0,
+          "perc": 70,
+          "sumRet": "85.40"
+        },
+        {
+          "id": -999999999,
+          "sumRet": "122",
+          "perc": 100
+        }
+      ],
+      "route": {
+        "forward": [
+          {
+            "changehours": "",
+            "changeminutes": "",
+            "currName": "грн",
+            "currency": "UAH",
+            "maxPercent": 0,
+            "minPrice": 101,
+            "price": 737,
+            "regular": {
+              "id": 1,
+              "name": "Кожен день",
+              "today": 1
+            },
+            "depDates": [
+              [
+                "2022-11-29",
+                "2022-11-30",
+                "2022-12-01",
+                "2022-12-03",
+                "2022-12-02",
+                "2022-12-04",
+                "2022-12-05",
+                "2022-12-06",
+                "2022-12-07",
+                "2022-12-08"
+              ]
+            ],
+            "info": {
+              "bus": "3714 DAF BOVA(63)",
+              "comfort": "",
+              "refund": [
+                "За 1 день до виїзду",
+                "За 2 години до виїзду",
+                "За 10 хв. до виїзду",
+                "До 3 годин після виїзду",
+                "Менше 10 хв до виїзду"
+              ]
+            },
+            "raceName": "Чернівці Варшава",
+            "raceNum": "115",
+            "route": [
+              {
+                "stArrName": "Чернівці АС1",
+                "stCode": 49,
+                "distance": 0,
+                "timeArr": "",
+                "timeDep": "12:30",
+                "price": "",
+                "city": "Чернівці",
+                "cityEn": "Чернівці",
+                "cityCode": 64721,
+                "descript": ""
+              },
+              {
+                "stArrName": "Коломия АС",
+                "stCode": 21,
+                "distance": 82,
+                "timeArr": "14:30",
+                "timeDep": "14:35",
+                "price": "",
+                "city": "Коломия",
+                "cityEn": "Коломия",
+                "cityCode": 64694,
+                "descript": ""
+              },
+              {
+                "stArrName": "Івано-Франківськ АС2",
+                "stCode": 11,
+                "distance": 149,
+                "timeArr": "15:55",
+                "timeDep": "16:00",
+                "price": "",
+                "city": "Івано Франківськ",
+                "cityEn": "Івано Франківськ",
+                "cityCode": 64684,
+                "descript": ""
+              },
+              {
+                "stArrName": "Львів Залізничний Вокзал",
+                "stCode": 106,
+                "distance": 284,
+                "timeArr": "18:35",
+                "timeDep": "20:30",
+                "price": "",
+                "city": "Львів",
+                "cityEn": "Львів",
+                "cityCode": 64768,
+                "descript": ""
+              },
+              {
+                "stArrName": "Люблін",
+                "stCode": 104,
+                "distance": 504,
+                "timeArr": "00:35",
+                "timeDep": "00:50",
+                "price": "",
+                "city": "Люблін",
+                "cityEn": "Люблін",
+                "cityCode": 64767,
+                "descript": ""
+              },
+              {
+                "stArrName": "Варшава",
+                "stCode": 103,
+                "distance": 676,
+                "timeArr": "05:30",
+                "timeDep": "",
+                "price": "",
+                "city": "Варшава",
+                "cityEn": "Варшава",
+                "cityCode": 64766,
+                "descript": ""
+              }
+            ],
+            "refrules": [
+              {
+                "id": 1,
+                "perc": 86,
+                "sumRet": "633.82"
+              },
+              {
+                "id": 9,
+                "perc": 86,
+                "sumRet": "633.82"
+              },
+              {
+                "id": 10,
+                "perc": 86,
+                "sumRet": "633.82"
+              },
+              {
+                "id": 11,
+                "perc": 70,
+                "sumRet": "515.90"
+              },
+              {
+                "id": 12,
+                "perc": 70,
+                "sumRet": "515.90"
+              },
+              {
+                "id": -999999999,
+                "sumRet": 737,
+                "perc": 100
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tripId": "eyJpZCI6IjI3NTQ4MjciLCJkYXRlIjoiMjAyMi0xMS0yOSJ9",
+      "carrIds": [
+        {
+          "id": "10923",
+          "name": "Travel Bus"
+        }
+      ],
+      "freeplace": true,
+      "busName": "no_plan",
+      "carrier": "Travel Bus",
+      "currency": "UAH",
+      "price": "200",
+      "dtArr": "2022-11-29T10:00:00.000000Z",
+      "dtDep": "2022-11-29T08:00:00.000000Z",
+      "places": 1,
+      "racename": "",
+      "stArrAddr": "Автовокзал, вул. Антоненка-Давидовича, 15",
+      "stArrName": "Коломия",
+      "stDepAddr": "Автовокзал, вул. Головна, 219\t",
+      "stDepName": "Чернівці",
+      "route": {
+        "forward": [
+          {
+            "info": {
+              "bus": "no_plan",
+              "refund": null
+            },
+            "route": {
+              "departure": {
+                "stArrName": "Чернівці",
+                "timeArr": "10:00:00",
+                "timeDep": "10:00:00"
+              },
+              "arrival": {
+                "stArrName": "Коломия",
+                "timeArr": "12:00:00",
+                "timeDep": "12:00:00"
+              }
+            }
+          }
+        ]
+      },
+      "result": {
+        "trans": "bus",
+        "interval_id": "2754827",
+        "route_id": "13535",
+        "bus_id": "3936882",
+        "route_name": "Камянець-Подільський - Карлові Вари",
+        "bustype_id": "1",
+        "has_plan": "0",
+        "bustype": "no_plan",
+        "carrier": "Travel Bus",
+        "carrier_id": "10923",
+        "comfort": "tv,1_baggage_free,sms_ticket,wifi,music,conditioner,220v",
+        "rating": "0",
+        "logo": [],
+        "buy": "1",
+        "reserve": "0",
+        "request": "1",
+        "eticket": "1",
+        "only_original": "0",
+        "sum_backdisc": "1",
+        "timetable_id": "13535|1|0:167587|0:167589|2022-11-29|10:00:00",
+        "request_get_free_seats": "0",
+        "request_get_discount": "0",
+        "buy_open": "0",
+        "day_open": "0",
+        "international": "1",
+        "inland": "0",
+        "speed_type": "0",
+        "need_orderdata": "1",
+        "need_birth": "0",
+        "need_doc": "0",
+        "need_doc_expire_date": "0",
+        "need_citizenship": "0",
+        "need_gender": "0",
+        "need_middlename": "0",
+        "lock_order": "1",
+        "lock_min": "30",
+        "reserve_min": "0",
+        "max_seats": "10",
+        "start_sale_day": "90",
+        "stop_sale_hours": "1",
+        "cancel_free_min": "15",
+        "date_from": "2022-11-29",
+        "time_from": "10:00:00",
+        "point_from": "Чернівці",
+        "country_from_id": "2",
+        "point_from_id": "95",
+        "station_from_id": "29",
+        "station_from": "Автовокзал, вул. Головна, 219\t",
+        "station_from_lat": "48.2648627158847",
+        "station_from_lon": "25.9520399153442",
+        "change_route": "0",
+        "date_to": "2022-11-29",
+        "time_to": "12:00:00",
+        "point_to": "Коломия",
+        "country_to_id": "2",
+        "point_to_id": "19",
+        "station_to_id": "79",
+        "station_to": "Автовокзал, вул. Антоненка-Давидовича, 15",
+        "station_to_lat": "48.525172",
+        "station_to_lon": "25.026667",
+        "time_in_way": "2:00",
+        "provision_rate": "10",
+        "price_one_way_full": "200",
+        "price_one_way": "200",
+        "price_two_way": "400",
+        "provision": "20",
+        "currency": "UAH",
+        "bonus_eur": "0.07",
+        "discounts": {
+          "item": [
+            {
+              "discount_id": "34885",
+              "discount_name": "20% Діти 7-12 років",
+              "discount_price": "160"
+            },
+            {
+              "discount_id": "34994",
+              "discount_name": "50% Діти 0-6 років",
+              "discount_price": "100"
+            }
+          ]
+        },
+        "free_seats": {
+          "item": [
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99"
+          ]
+        },
+        "luggage": "1 шт. до 30 кг. - безкоштовно, ручна поклажа до 9 кг.",
+        "route_info": "Можливе перевезення велосипеда та дитячої коляски в складеному вигляді у багажному відділенні. Наявність місця та вартість уточнювати в перевізника.",
+        "dispatcher_phone": "FREE LINE 0800 60 32 14 (UKR)",
+        "cancel_hours_info": {
+          "item": [
+            {
+              "hours_after_depar": "10001",
+              "hours_before_depar": "48",
+              "cancel_rate": "10",
+              "money_back": "180"
+            },
+            {
+              "hours_after_depar": "48",
+              "hours_before_depar": "24",
+              "cancel_rate": "20",
+              "money_back": "160"
+            },
+            {
+              "hours_after_depar": "24",
+              "hours_before_depar": "12",
+              "cancel_rate": "50",
+              "money_back": "100"
+            },
+            {
+              "hours_after_depar": "12",
+              "hours_before_depar": "0",
+              "cancel_rate": "100",
+              "money_back": "0"
+            }
+          ]
+        },
+        "route_foto": {
+          "item": [
+            "https://ws.bussystem.eu/images/bus_foto/760/global/ec0fc1e78dfd.jpeg",
+            "https://ws.bussystem.eu/images/bus_foto/760/global/d1aab209feb2.jpeg",
+            "https://ws.bussystem.eu/images/bus_foto/760/global/fab75817559c.jpeg",
+            "https://ws.bussystem.eu/images/bus_foto/760/global/37d3e3860774.jpeg",
+            "https://ws.bussystem.eu/images/bus_foto/760/global/40c86abd3468.jpeg"
+          ]
+        },
+        "regulations_url": "0",
+        "ws": "1",
+        "stations": {
+          "departure": {
+            "item": {
+              "station_id": "29",
+              "point_id": "95",
+              "time": "10:00:00",
+              "point_name": "Чернівці",
+              "station_name": "Автовокзал, вул. Головна, 219\t",
+              "lat": "48.2648627158847",
+              "lon": "25.9520399153442",
+              "price": {
+                "item": {
+                  "station_id": "79",
+                  "price_one_way": "200"
+                }
+              }
+            }
+          },
+          "arrival": {
+            "item": {
+              "station_id": "79",
+              "point_id": "19",
+              "time": "12:00:00",
+              "point_name": "Коломия",
+              "station_name": "Автовокзал, вул. Антоненка-Давидовича, 15",
+              "lat": "48.525172",
+              "lon": "25.026667"
+            }
+          }
+        }
+      }
+    },
+    {
+      "tripId": "eyJpZCI6IjI3OTkxODciLCJkYXRlIjoiMjAyMi0xMS0yOSJ9",
+      "carrIds": [
+        {
+          "id": "14525",
+          "name": "Sim Trans TOV"
+        }
+      ],
+      "freeplace": true,
+      "busName": "no_plan",
+      "carrier": "Sim Trans TOV",
+      "currency": "UAH",
+      "price": "150",
+      "dtArr": "2022-11-29T11:20:00.000000Z",
+      "dtDep": "2022-11-29T09:10:00.000000Z",
+      "places": 1,
+      "racename": "",
+      "stArrAddr": "Автовокзал, вул. Антоненка-Давидовича, 15",
+      "stArrName": "Коломия",
+      "stDepAddr": "Автовокзал, вул. Головна, 219\t",
+      "stDepName": "Чернівці",
+      "route": {
+        "forward": [
+          {
+            "info": {
+              "bus": "no_plan",
+              "refund": null
+            },
+            "route": {
+              "departure": {
+                "stArrName": "Чернівці",
+                "timeArr": "11:10:00",
+                "timeDep": "11:10:00"
+              },
+              "arrival": {
+                "stArrName": "Коломия",
+                "timeArr": "13:20:00",
+                "timeDep": "13:20:00"
+              }
+            }
+          }
+        ]
+      },
+      "result": {
+        "trans": "bus",
+        "interval_id": "2799187",
+        "route_id": "15441",
+        "bus_id": "3885753",
+        "route_name": "Чернівці - Ужгород (Чернівці - Плзень)",
+        "bustype_id": "1",
+        "has_plan": "0",
+        "bustype": "no_plan",
+        "carrier": "Sim Trans TOV",
+        "carrier_id": "14525",
+        "comfort": "220v,wifi,tv,music,conditioner,wc,sms_ticket,1_baggage_free",
+        "rating": "0",
+        "logo": [],
+        "buy": "1",
+        "reserve": "0",
+        "request": "1",
+        "eticket": "1",
+        "only_original": "0",
+        "sum_backdisc": "1",
+        "timetable_id": "15441|1|0:196115|0:196117|2022-11-29|11:10:00",
+        "request_get_free_seats": "0",
+        "request_get_discount": "0",
+        "buy_open": "0",
+        "day_open": "0",
+        "international": "1",
+        "inland": "0",
+        "speed_type": "0",
+        "need_orderdata": "1",
+        "need_birth": "0",
+        "need_doc": "0",
+        "need_doc_expire_date": "0",
+        "need_citizenship": "0",
+        "need_gender": "0",
+        "need_middlename": "0",
+        "lock_order": "1",
+        "lock_min": "30",
+        "reserve_min": "0",
+        "max_seats": "10",
+        "start_sale_day": "60",
+        "stop_sale_hours": "0",
+        "cancel_free_min": "15",
+        "date_from": "2022-11-29",
+        "time_from": "11:10:00",
+        "point_from": "Чернівці",
+        "country_from_id": "2",
+        "point_from_id": "95",
+        "station_from_id": "29",
+        "station_from": "Автовокзал, вул. Головна, 219\t",
+        "station_from_lat": "48.2648627158847",
+        "station_from_lon": "25.9520399153442",
+        "change_route": "0",
+        "date_to": "2022-11-29",
+        "time_to": "13:20:00",
+        "point_to": "Коломия",
+        "country_to_id": "2",
+        "point_to_id": "19",
+        "station_to_id": "79",
+        "station_to": "Автовокзал, вул. Антоненка-Давидовича, 15",
+        "station_to_lat": "48.525172",
+        "station_to_lon": "25.026667",
+        "time_in_way": "2:10",
+        "provision_rate": "10",
+        "price_one_way_full": "150",
+        "price_one_way": "150",
+        "price_two_way": "300",
+        "provision": "15",
+        "currency": "UAH",
+        "bonus_eur": "0.06",
+        "discounts": {
+          "item": [
+            {
+              "discount_id": "35666",
+              "discount_name": "10% Група від 5 осіб",
+              "discount_price": "135"
+            },
+            {
+              "discount_id": "35668",
+              "discount_name": "10% Студенти",
+              "discount_price": "135"
+            },
+            {
+              "discount_id": "35669",
+              "discount_name": "10% Пенсіонери",
+              "discount_price": "135"
+            },
+            {
+              "discount_id": "35667",
+              "discount_name": "50% Діти 0-5 років",
+              "discount_price": "75"
+            }
+          ]
+        },
+        "free_seats": {
+          "item": [
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99"
+          ]
+        },
+        "luggage": "1 од. до 30кг (50x50x30) – безкоштовно, ручна поклажа до 3 кг. - Безкоштовно, наст. багаж 1 од. до 10кг (50x50x30) - 20% від ціни квитка.",
+        "route_info": [],
+        "dispatcher_phone": "FREE LINE 0800 60 32 14 (UKR)",
+        "cancel_hours_info": {
+          "item": [
+            {
+              "hours_after_depar": "10001",
+              "hours_before_depar": "48",
+              "cancel_rate": "10",
+              "money_back": "135"
+            },
+            {
+              "hours_after_depar": "48",
+              "hours_before_depar": "24",
+              "cancel_rate": "20",
+              "money_back": "120"
+            },
+            {
+              "hours_after_depar": "24",
+              "hours_before_depar": "0",
+              "cancel_rate": "100",
+              "money_back": "0"
+            }
+          ]
+        },
+        "route_foto": {
+          "item": "https://ws.bussystem.eu/images/bus_foto/813/global/3a09497c4b18.jpg"
+        },
+        "regulations_url": "0",
+        "ws": "1",
+        "stations": {
+          "departure": {
+            "item": {
+              "station_id": "29",
+              "point_id": "95",
+              "time": "11:10:00",
+              "point_name": "Чернівці",
+              "station_name": "Автовокзал, вул. Головна, 219\t",
+              "lat": "48.2648627158847",
+              "lon": "25.9520399153442",
+              "price": {
+                "item": {
+                  "station_id": "79",
+                  "price_one_way": "150"
+                }
+              }
+            }
+          },
+          "arrival": {
+            "item": {
+              "station_id": "79",
+              "point_id": "19",
+              "time": "13:20:00",
+              "point_name": "Коломия",
+              "station_name": "Автовокзал, вул. Антоненка-Давидовича, 15",
+              "lat": "48.525172",
+              "lon": "25.026667"
+            }
+          }
+        }
+      }
+    },
+    {
+      "tripId": "eyJpZCI6IjI0NTI4ODYiLCJkYXRlIjoiMjAyMi0xMS0yOSJ9",
+      "carrIds": [
+        {
+          "id": "569",
+          "name": "Modultrans"
+        }
+      ],
+      "freeplace": true,
+      "busName": "no_plan",
+      "carrier": "Modultrans",
+      "currency": "UAH",
+      "price": "150",
+      "dtArr": "2022-11-29T14:00:00.000000Z",
+      "dtDep": "2022-11-29T12:00:00.000000Z",
+      "places": 1,
+      "racename": "",
+      "stArrAddr": "На кільці біля автовокзалу, вул. Антоненка-Давидовича, 15",
+      "stArrName": "Коломия",
+      "stDepAddr": "Автовокзал, вул. Головна, 219\t",
+      "stDepName": "Чернівці",
+      "route": {
+        "forward": [
+          {
+            "info": {
+              "bus": "no_plan",
+              "refund": null
+            },
+            "route": {
+              "departure": {
+                "stArrName": "Чернівці",
+                "timeArr": "14:00:00",
+                "timeDep": "14:00:00"
+              },
+              "arrival": {
+                "stArrName": "Коломия",
+                "timeArr": "16:00:00",
+                "timeDep": "16:00:00"
+              }
+            }
+          }
+        ]
+      },
+      "result": {
+        "trans": "bus",
+        "interval_id": "2452886",
+        "route_id": "12390",
+        "bus_id": "0",
+        "route_name": "Камянець-Подільський - Львів (Піла)",
+        "bustype_id": "1",
+        "has_plan": "0",
+        "bustype": "no_plan",
+        "carrier": "Modultrans",
+        "carrier_id": "569",
+        "comfort": "wifi,conditioner,music,tv,220v,sms_ticket",
+        "rating": "0",
+        "logo": [],
+        "buy": "1",
+        "reserve": "0",
+        "request": "1",
+        "eticket": "1",
+        "only_original": "0",
+        "sum_backdisc": "1",
+        "timetable_id": "12390|2|0:149546|0:149544|2022-11-29|14:00:00",
+        "request_get_free_seats": "0",
+        "request_get_discount": "0",
+        "buy_open": "0",
+        "day_open": "0",
+        "international": "1",
+        "inland": "0",
+        "speed_type": "0",
+        "need_orderdata": "1",
+        "need_birth": "0",
+        "need_doc": "0",
+        "need_doc_expire_date": "0",
+        "need_citizenship": "0",
+        "need_gender": "0",
+        "need_middlename": "0",
+        "lock_order": "1",
+        "lock_min": "30",
+        "reserve_min": "0",
+        "max_seats": "10",
+        "start_sale_day": "180",
+        "stop_sale_hours": "0",
+        "cancel_free_min": "15",
+        "date_from": "2022-11-29",
+        "time_from": "14:00:00",
+        "point_from": "Чернівці",
+        "country_from_id": "2",
+        "point_from_id": "95",
+        "station_from_id": "29",
+        "station_from": "Автовокзал, вул. Головна, 219\t",
+        "station_from_lat": "48.2648627158847",
+        "station_from_lon": "25.9520399153442",
+        "change_route": "0",
+        "date_to": "2022-11-29",
+        "time_to": "16:00:00",
+        "point_to": "Коломия",
+        "country_to_id": "2",
+        "point_to_id": "19",
+        "station_to_id": "2966",
+        "station_to": "На кільці біля автовокзалу, вул. Антоненка-Давидовича, 15",
+        "station_to_lat": "48.526503",
+        "station_to_lon": "25.024109",
+        "time_in_way": "2:00",
+        "provision_rate": "10",
+        "price_one_way_full": "150",
+        "price_one_way": "150",
+        "price_two_way": "300",
+        "provision": "15",
+        "currency": "UAH",
+        "bonus_eur": "0.06",
+        "discounts": [],
+        "free_seats": {
+          "item": [
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99"
+          ]
+        },
+        "luggage": "1 од. до 30кг, + ручна поклажа до 5 кг (60x40x20) безкоштовно, кожне додаткове місце до 15кг від 5 EUR.",
+        "route_info": "Посадка на автобус може проводитися за межами автовокзалу, більш детальну інформацію можна дізнатися у водія.",
+        "dispatcher_phone": "FREE LINE 0800 60 32 14 (UKR)",
+        "cancel_hours_info": {
+          "item": [
+            {
+              "hours_after_depar": "10001",
+              "hours_before_depar": "48",
+              "cancel_rate": "10",
+              "money_back": "135"
+            },
+            {
+              "hours_after_depar": "48",
+              "hours_before_depar": "24",
+              "cancel_rate": "20",
+              "money_back": "120"
+            },
+            {
+              "hours_after_depar": "24",
+              "hours_before_depar": "12",
+              "cancel_rate": "50",
+              "money_back": "75"
+            },
+            {
+              "hours_after_depar": "12",
+              "hours_before_depar": "2",
+              "cancel_rate": "80",
+              "money_back": "30"
+            },
+            {
+              "hours_after_depar": "2",
+              "hours_before_depar": "0",
+              "cancel_rate": "100",
+              "money_back": "0"
+            }
+          ]
+        },
+        "route_foto": {
+          "item": [
+            "https://ws.bussystem.eu/images/bus_foto/236/global/4104a0f3e7d7.jpg",
+            "https://ws.bussystem.eu/images/bus_foto/236/global/643a0cd1fc5b.jpg",
+            "https://ws.bussystem.eu/images/bus_foto/236/global/8a4cf625955c.jpg",
+            "https://ws.bussystem.eu/images/bus_foto/236/global/9f0cddd6d004.jpg",
+            "https://ws.bussystem.eu/images/bus_foto/236/global/ef7d5e6159d2.jpg"
+          ]
+        },
+        "regulations_url": "0",
+        "ws": "1",
+        "stations": {
+          "departure": {
+            "item": {
+              "station_id": "29",
+              "point_id": "95",
+              "time": "14:00:00",
+              "point_name": "Чернівці",
+              "station_name": "Автовокзал, вул. Головна, 219\t",
+              "lat": "48.2648627158847",
+              "lon": "25.9520399153442",
+              "price": {
+                "item": {
+                  "station_id": "2966",
+                  "price_one_way": "150"
+                }
+              }
+            }
+          },
+          "arrival": {
+            "item": {
+              "station_id": "2966",
+              "point_id": "19",
+              "time": "16:00:00",
+              "point_name": "Коломия",
+              "station_name": "На кільці біля автовокзалу, вул. Антоненка-Давидовича, 15",
+              "lat": "48.526503",
+              "lon": "25.024109"
+            }
+          }
+        }
+      }
+    },
+    {
+      "tripId": "eyJpZCI6IjI1NzEwODIiLCJkYXRlIjoiMjAyMi0xMS0yOSJ9",
+      "carrIds": [
+        {
+          "id": "7211",
+          "name": "Малофеев А.М."
+        }
+      ],
+      "freeplace": true,
+      "busName": "no_plan",
+      "carrier": "Малофеев А.М.",
+      "currency": "UAH",
+      "price": "115",
+      "dtArr": "2022-11-29T16:15:00.000000Z",
+      "dtDep": "2022-11-29T14:00:00.000000Z",
+      "places": 1,
+      "racename": "",
+      "stArrAddr": "На кільці біля автовокзалу, вул. Антоненка-Давидовича, 15",
+      "stArrName": "Коломия",
+      "stDepAddr": "Автовокзал, вул. Головна, 219\t",
+      "stDepName": "Чернівці",
+      "route": {
+        "forward": [
+          {
+            "info": {
+              "bus": "no_plan",
+              "refund": null
+            },
+            "route": {
+              "departure": {
+                "stArrName": "Чернівці",
+                "timeArr": "16:00:00",
+                "timeDep": "16:00:00"
+              },
+              "arrival": {
+                "stArrName": "Коломия",
+                "timeArr": "18:15:00",
+                "timeDep": "18:15:00"
+              }
+            }
+          }
+        ]
+      },
+      "result": {
+        "trans": "bus",
+        "interval_id": "2571082",
+        "route_id": "13319",
+        "bus_id": "3944104",
+        "route_name": "Липкани - Ужгород",
+        "bustype_id": "1",
+        "has_plan": "0",
+        "bustype": "no_plan",
+        "carrier": "Малофеев А.М.",
+        "carrier_id": "7211",
+        "comfort": "conditioner,tv,sms_ticket",
+        "rating": "0",
+        "logo": [],
+        "buy": "1",
+        "reserve": "0",
+        "request": "1",
+        "eticket": "1",
+        "only_original": "0",
+        "sum_backdisc": "1",
+        "timetable_id": "13319|2|0:164520|0:164523|2022-11-29|16:00:00",
+        "request_get_free_seats": "0",
+        "request_get_discount": "0",
+        "buy_open": "0",
+        "day_open": "0",
+        "international": "1",
+        "inland": "0",
+        "speed_type": "0",
+        "need_orderdata": "1",
+        "need_birth": "0",
+        "need_doc": "0",
+        "need_doc_expire_date": "0",
+        "need_citizenship": "0",
+        "need_gender": "0",
+        "need_middlename": "0",
+        "lock_order": "1",
+        "lock_min": "30",
+        "reserve_min": "0",
+        "max_seats": "10",
+        "start_sale_day": "180",
+        "stop_sale_hours": "0",
+        "cancel_free_min": "15",
+        "date_from": "2022-11-29",
+        "time_from": "16:00:00",
+        "point_from": "Чернівці",
+        "country_from_id": "2",
+        "point_from_id": "95",
+        "station_from_id": "29",
+        "station_from": "Автовокзал, вул. Головна, 219\t",
+        "station_from_lat": "48.2648627158847",
+        "station_from_lon": "25.9520399153442",
+        "change_route": "0",
+        "date_to": "2022-11-29",
+        "time_to": "18:15:00",
+        "point_to": "Коломия",
+        "country_to_id": "2",
+        "point_to_id": "19",
+        "station_to_id": "2966",
+        "station_to": "На кільці біля автовокзалу, вул. Антоненка-Давидовича, 15",
+        "station_to_lat": "48.526503",
+        "station_to_lon": "25.024109",
+        "time_in_way": "2:15",
+        "provision_rate": "10",
+        "price_one_way_full": "115",
+        "price_one_way": "115",
+        "price_two_way": "230",
+        "provision": "11.5",
+        "currency": "UAH",
+        "bonus_eur": "0.04",
+        "discounts": [],
+        "free_seats": {
+          "item": [
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99",
+            "99"
+          ]
+        },
+        "luggage": "1 од. до 30 кг і ручна поклажа (60х40х20) - безкоштовно, кожна наступна - 5 EUR",
+        "route_info": [],
+        "dispatcher_phone": "FREE LINE 0800 60 32 14 (UKR)",
+        "cancel_hours_info": {
+          "item": [
+            {
+              "hours_after_depar": "10001",
+              "hours_before_depar": "48",
+              "cancel_rate": "10",
+              "money_back": "103.5"
+            },
+            {
+              "hours_after_depar": "48",
+              "hours_before_depar": "24",
+              "cancel_rate": "50",
+              "money_back": "57.5"
+            },
+            {
+              "hours_after_depar": "24",
+              "hours_before_depar": "0",
+              "cancel_rate": "100",
+              "money_back": "0"
+            }
+          ]
+        },
+        "route_foto": [],
+        "regulations_url": "0",
+        "ws": "1",
+        "stations": {
+          "departure": {
+            "item": {
+              "station_id": "29",
+              "point_id": "95",
+              "time": "16:00:00",
+              "point_name": "Чернівці",
+              "station_name": "Автовокзал, вул. Головна, 219\t",
+              "lat": "48.2648627158847",
+              "lon": "25.9520399153442",
+              "price": {
+                "item": {
+                  "station_id": "2966",
+                  "price_one_way": "115"
+                }
+              }
+            }
+          },
+          "arrival": {
+            "item": {
+              "station_id": "2966",
+              "point_id": "19",
+              "time": "18:15:00",
+              "point_name": "Коломия",
+              "station_name": "На кільці біля автовокзалу, вул. Антоненка-Давидовича, 15",
+              "lat": "48.526503",
+              "lon": "25.024109"
+            }
+          }
+        }
+      }
+    }],
+"tickets" :[
+  {
+    "tripId": "eyJ0cmlwX2lkIjo5MTUwLCJmcm9tX2lkIjo0OSwidG9faWQiOjIxfQ==",
+    "baggMaxCnt": "5",
+    "canResv": 1,
+    "canSale": 1,
+    "carrier": "Denysivka",
+    "cityArrName": "Коломия",
+    "cityDepName": "Чернівці",
+    "currName": "грн",
+    "currency": "UAH",
+    "isAction": 0,
+    "raceDescr": "",
+    "dtDep": "2022-11-30 08:25",
+    "dtArr": "2022-11-30 10:40",
+    "raceName": "112 Чернівці Ужгород",
+    "raceNum": "112",
+    "raceId": 9150,
+    "refrules": [
+      {
+        "id": 86400,
+        "perc": 86,
+        "sumRet": "76.54"
+      },
+      {
+        "id": 7200,
+        "perc": 86,
+        "sumRet": "76.54"
+      },
+      {
+        "id": 600,
+        "perc": 86,
+        "sumRet": "76.54"
+      },
+      {
+        "id": -10800,
+        "perc": 70,
+        "sumRet": "62.30"
+      },
+      {
+        "id": 0,
+        "perc": 70,
+        "sumRet": "62.30"
+      },
+      {
+        "id": -999999999,
+        "sumRet": "89",
+        "perc": 100
+      }
+    ],
+    "stFromId": 49,
+    "stToId": 21,
+    "stDepName": "Чернівці АС1",
+    "stDepAddr": "Головна вул. 219",
+    "stArrName": "Коломия АС",
+    "stArrAddr": "Антоненка-Давидовича вул. 15",
+    "stDepLat": "48.264936",
+    "stDepLong": "25.951816",
+    "stArrLat": "48.52503",
+    "stArrLong": "25.026548",
+    "pricePass": "89",
+    "priceBagg": "89",
+    "priceCurr": "UAH",
+    "priceCName": "грн",
+    "busName": "5628 MERSEDES(30)",
+    "busCapacity": 30,
+    "busTempl": {
+      "size": [
+        {
+          "x": 8,
+          "y": 5
+        }
+      ],
+      "matrix": [
+        [
+          [
+            [],
+            [],
+            {
+              "n": 6,
+              "free": 1
+            },
+            {
+              "n": 10,
+              "free": 1
+            },
+            {
+              "n": 14,
+              "free": 1
+            },
+            {
+              "n": 18,
+              "free": 1
+            },
+            {
+              "n": 22,
+              "free": 1
+            },
+            {
+              "n": 26,
+              "free": 1
+            },
+            []
+          ],
+          [
+            [],
+            [],
+            {
+              "n": 5,
+              "free": 1
+            },
+            {
+              "n": 9,
+              "free": 1
+            },
+            {
+              "n": 13,
+              "free": 1
+            },
+            {
+              "n": 17,
+              "free": 1
+            },
+            {
+              "n": 21,
+              "free": 1
+            },
+            {
+              "n": 25,
+              "free": 1
+            },
+            {
+              "n": 30,
+              "free": 1
+            }
+          ],
+          [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            {
+              "n": 29,
+              "free": 1
+            }
+          ],
+          [
+            [],
+            {
+              "n": 2,
+              "free": 1
+            },
+            {
+              "n": 4,
+              "free": 1
+            },
+            {
+              "n": 8,
+              "free": 1
+            },
+            {
+              "n": 12,
+              "free": 1
+            },
+            {
+              "n": 16,
+              "free": 1
+            },
+            {
+              "n": 20
+            },
+            {
+              "n": 24,
+              "free": 1
+            },
+            {
+              "n": 28,
+              "free": 1
+            }
+          ],
+          [
+            {
+              "svc": "none"
+            },
+            {
+              "n": 1
+            },
+            {
+              "n": 3,
+              "free": 1
+            },
+            {
+              "n": 7,
+              "free": 1
+            },
+            {
+              "n": 11,
+              "free": 1
+            },
+            {
+              "n": 15
+            },
+            {
+              "n": 19,
+              "free": 1
+            },
+            {
+              "n": 23,
+              "free": 1
+            },
+            {
+              "n": 27,
+              "free": 1
+            }
+          ]
+        ]
+      ]
+    },
+    "places": [
+      {
+        "num": 1
+      },
+      {
+        "num": 2
+      },
+      {
+        "num": 3
+      },
+      {
+        "num": 4
+      },
+      {
+        "num": 5
+      },
+      {
+        "num": 6
+      },
+      {
+        "num": 7
+      },
+      {
+        "num": 8
+      },
+      {
+        "num": 9
+      },
+      {
+        "num": 10
+      },
+      {
+        "num": 11
+      },
+      {
+        "num": 12
+      },
+      {
+        "num": 13
+      },
+      {
+        "num": 14
+      },
+      {
+        "num": 15
+      },
+      {
+        "num": 16
+      },
+      {
+        "num": 17
+      },
+      {
+        "num": 18
+      },
+      {
+        "num": 19
+      },
+      {
+        "num": 20
+      },
+      {
+        "num": 21
+      },
+      {
+        "num": 22
+      },
+      {
+        "num": 23
+      },
+      {
+        "num": 24
+      },
+      {
+        "num": 25
+      },
+      {
+        "num": 26
+      },
+      {
+        "num": 27
+      },
+      {
+        "num": 28
+      },
+      {
+        "num": 29
+      },
+      {
+        "num": 30
+      }
+    ],
+    "countryFrom": "Україна",
+    "countryTo": "Україна",
+    "lgotes": [
+      {
+        "code": 1,
+        "docNeed": 0,
+        "name": "Учасники БД",
+        "percent": 86,
+        "type": "privilege",
+        "price": 12.46,
+        "param": ""
+      },
+      {
+        "code": 3,
+        "docNeed": 0,
+        "name": "Родичі загиблих",
+        "percent": 86,
+        "type": "privilege",
+        "price": 12.46,
+        "param": ""
+      },
+      {
+        "code": 5,
+        "docNeed": 0,
+        "name": "Вет. ВОВ",
+        "percent": 86,
+        "type": "privilege",
+        "price": 12.46,
+        "param": ""
+      },
+      {
+        "code": 6,
+        "docNeed": 0,
+        "name": "Герой України",
+        "percent": 86,
+        "type": "privilege",
+        "price": 12.46,
+        "param": ""
+      },
+      {
+        "code": 7,
+        "docNeed": 0,
+        "name": "СЛУЖБОВИЙ",
+        "percent": 100,
+        "type": "privilege",
+        "price": 0,
+        "param": ""
+      }
+    ],
+    "wayTimeH": 2,
+    "wayTimeM": 145,
+    "wayTimeSec": 8700,
+    "carrInfo": {
+      "addr": null,
+      "id": 100,
+      "name": "Denysivka",
+      "phone": "0990900888"
+    },
+    "insurInfo": {
+      "addr": null,
+      "id": 1,
+      "name": "ПрАТ \"Страхова компанія Універсальна\"",
+      "phone": "00500381"
+    },
+    "providerInfo": [],
+    "route": [
+      {
+        "stArrName": "Чернівці АС1",
+        "stCode": 49,
+        "distance": 0,
+        "timeArr": "",
+        "timeDep": "08:25",
+        "price": "",
+        "city": "Чернівці",
+        "cityEn": "Чернівці",
+        "cityCode": 64721,
+        "descript": ""
+      },
+      {
+        "stArrName": "Снятин АС",
+        "stCode": 48,
+        "distance": 47,
+        "timeArr": "09:35",
+        "timeDep": "09:40",
+        "price": "",
+        "city": "Снятин",
+        "cityEn": "Снятин",
+        "cityCode": 64720,
+        "descript": ""
+      },
+      {
+        "stArrName": "Коломия АС",
+        "stCode": 21,
+        "distance": 89,
+        "timeArr": "10:40",
+        "timeDep": "10:50",
+        "price": "",
+        "city": "Коломия",
+        "cityEn": "Коломия",
+        "cityCode": 64694,
+        "descript": ""
+      },
+      {
+        "stArrName": "Делятин",
+        "stCode": 22,
+        "distance": 125,
+        "timeArr": "11:40",
+        "timeDep": "11:45",
+        "price": "",
+        "city": "Делятин",
+        "cityEn": "Делятин",
+        "cityCode": 64695,
+        "descript": ""
+      },
+      {
+        "stArrName": "Яремче АС",
+        "stCode": 23,
+        "distance": 136,
+        "timeArr": "12:00",
+        "timeDep": "12:05",
+        "price": "",
+        "city": "Яремче",
+        "cityEn": "Яремче",
+        "cityCode": 64696,
+        "descript": ""
+      },
+      {
+        "stArrName": "Ясіня АС",
+        "stCode": 71,
+        "distance": 180,
+        "timeArr": "13:10",
+        "timeDep": "13:40",
+        "price": "",
+        "city": "Ясіня",
+        "cityEn": "Ясіня",
+        "cityCode": 64741,
+        "descript": ""
+      },
+      {
+        "stArrName": "Рахів АС",
+        "stCode": 70,
+        "distance": 212,
+        "timeArr": "14:30",
+        "timeDep": "14:35",
+        "price": "",
+        "city": "Рахів",
+        "cityEn": "Рахів",
+        "cityCode": 64740,
+        "descript": ""
+      },
+      {
+        "stArrName": "Солотвино АС",
+        "stCode": 68,
+        "distance": 260,
+        "timeArr": "16:00",
+        "timeDep": "16:05",
+        "price": "",
+        "city": "Солотвино",
+        "cityEn": "Солотвино",
+        "cityCode": 64738,
+        "descript": ""
+      },
+      {
+        "stArrName": "Тячів АС",
+        "stCode": 53,
+        "distance": 289,
+        "timeArr": "16:45",
+        "timeDep": "16:50",
+        "price": "",
+        "city": "Тячів",
+        "cityEn": "Тячів",
+        "cityCode": 64725,
+        "descript": ""
+      },
+      {
+        "stArrName": "Хуст АС",
+        "stCode": 54,
+        "distance": 318,
+        "timeArr": "17:20",
+        "timeDep": "17:30",
+        "price": "",
+        "city": "Хуст",
+        "cityEn": "Хуст",
+        "cityCode": 64726,
+        "descript": ""
+      },
+      {
+        "stArrName": "Мукачево АВ",
+        "stCode": 88,
+        "distance": 411,
+        "timeArr": "19:05",
+        "timeDep": "19:10",
+        "price": "",
+        "city": "Мукачево",
+        "cityEn": "Мукачево",
+        "cityCode": 64759,
+        "descript": ""
+      },
+      {
+        "stArrName": "Ужгород АС-1",
+        "stCode": 62,
+        "distance": 455,
+        "timeArr": "22:05",
+        "timeDep": "",
+        "price": "",
+        "city": "Ужгород",
+        "cityEn": "Ужгород",
+        "cityCode": 64733,
+        "descript": ""
+      }
+    ]
+  }
+]
+}
+  
