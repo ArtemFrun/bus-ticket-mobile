@@ -6,19 +6,74 @@ export const Ticket = ({navigation, route}) => {
     const [bus, setBus] = React.useState();
     const [ticket, setTicket] = React.useState();
     const [name, setName] = React.useState("");
+    const [nameError, setNameError] = React.useState("");
     const [surname, setSurname] = React.useState("");
+    const [surnameError, setSurnameError] = React.useState("");
     const [selectPlace, setPlace] = React.useState(0);
     const [noteText, setNoteText] = React.useState();
-    const [email, setEmail]= React.useState();
-    const [phone, setPhone] = React.useState();
+    const [email, setEmail]= React.useState("");
+    const [emailError, setEmailError] = React.useState("");
+    const [phone, setPhone] = React.useState("");
+    const [phoneError, setPhoneError] = React.useState("");
     const [isChecked, setChecked] = React.useState(false);
     const [buttonName, setBottonName] = React.useState('Вибір місця');
     const [isChosePlace, setIsChosePlace] = React.useState(false);
     const [modalVisible, setModalVisible] = React.useState(false);
+    const [checkboxError, setCheckboxError] = React.useState(true);
 
     const consoleLog = (value) => {
         console.log(value);
     };
+
+    const validationName = () => {
+        if(name == ""){
+            setNameError("Input name");
+        }
+        else{
+            setNameError("");
+            return true;
+        }
+    }
+
+    const validationSurname = () => {
+        if(surname == ""){
+            setSurnameError("Input surname");
+        }
+        else{
+            setSurnameError("");
+            return true;
+        }
+    }
+
+    const validationEmail = () => {
+        if(email == ""){
+            setEmailError("Invalid email");
+        }
+        else{
+            setEmailError("");
+            return true;
+        }
+    }
+
+    const validationPhone = () => {
+        if(phone == ""){
+            setPhoneError("Invalide phone");
+        }
+        else{
+            setPhoneError("");
+            return true;
+        }
+    }
+
+    const validationCheckbox = () => {
+        if(isChecked == false){
+            setCheckboxError(false);
+        }
+        else{
+            setCheckboxError(true);
+            return true;
+        }
+    }
 
     const ChosePlace = (value) =>{
         setPlace(value);
@@ -26,6 +81,23 @@ export const Ticket = ({navigation, route}) => {
         setIsChosePlace(true);
         setBottonName('Змінити місце ('+value+')')
     }
+
+    const Submit = () => {
+        validationName();
+        validationSurname();
+        validationEmail();
+        validationPhone();
+        validationCheckbox();
+
+        if(validationName() && validationSurname() && validationEmail()
+        && validationPhone() && validationCheckbox())
+        {
+            console.log('submit')
+            navigation.navigate('Done')
+        }
+    }
+
+
   
 
     React.useEffect(() => {
@@ -59,8 +131,10 @@ return (
                                 placeholder = "Імя"
                                 placeholderTextColor = "#000000"
                                 autoCapitalize = "none"
-                                value={name}
-                                onChangeText={text => setName(text)}></TextInput>
+                                onChangeText={(text) => setName(text)}
+                                onBlur={() => validationName()}
+                                ></TextInput>
+                                <Text style={styles.errorMassege}>{nameError}</Text>
                             </View>
                             <View>
                                 <Text style={styles.labelInputText}>Прізвище</Text>
@@ -69,7 +143,11 @@ return (
                                 placeholder = "Прізвище"
                                 placeholderTextColor = "#000000"
                                 autoCapitalize = "none"
-                                onChangeText={text => setSurname(text)}></TextInput></View>
+                                onChangeText={(text) => setSurname(text)}
+                                onBlur={() => validationSurname()}
+                                ></TextInput>
+                                <Text style={styles.errorMassege}>{surnameError}</Text>
+                            </View>
                         </View>
                         <View style={[styles.paddintItems, styles.elementSpaceBet, styles.displayFl, styles.marginItemsTB]}>
                             <View>
@@ -183,7 +261,10 @@ return (
                             placeholder = "E-mail"
                             placeholderTextColor = "#000000"
                             autoCapitalize = "none"
-                            onChangeText={text => setEmail(text)}></TextInput>
+                            onChangeText={(text) => setEmail(text)}
+                            onBlur={() => validationEmail()}
+                            ></TextInput>
+                            <Text style={styles.errorMassege}>{emailError}</Text>
                         </View>
                         <View style={[styles.paddintItems, styles.marginItemsTB]}>
                             <Text style={styles.labelInputText}>Телефон</Text>
@@ -192,11 +273,16 @@ return (
                             placeholder = "Телефон"
                             placeholderTextColor = "#000000"
                             autoCapitalize = "none"
-                            onChangeText={text => setEmail(text)}></TextInput>
+                            onChangeText={(text) => setPhone(text)}
+                            onBlur={() => validationPhone()}
+                            ></TextInput>
+                            <Text style={styles.errorMassege}>{phoneError}</Text>
                         </View>
                         <View style={styles.paddintItems}>
                             <View style={styles.section}>
-                                <Checkbox style={styles.checkbox} value={isChecked} onValueChange={setChecked} />
+                                <View style={checkboxError ? styles.checkbox : styles.checkboxErr}>
+                                    <Checkbox  value={isChecked} onValueChange={setChecked} />
+                                </View>
                                 <Text style={styles.paragraph}>Я приймаю умови повернення, публічної оферти 
                                         і даю згоду на обробку персональних даних.</Text>
                             </View>
@@ -217,7 +303,7 @@ return (
                             </View>
                             <View>
                                 <TouchableOpacity style={styles.buttonStyle}>
-                                    <Text style={[styles.buttonTextStyle, styles.buttonTextStyles, styles.bigText]}>Сплатити</Text>
+                                    <Text style={[styles.buttonTextStyle, styles.buttonTextStyles, styles.bigText]} onPress={() => Submit()}>Сплатити</Text>
                                 </TouchableOpacity>
                             </View>
                         </View>
@@ -372,6 +458,12 @@ const styles = StyleSheet.create({
     checkbox: {
         margin: 8,
     },
+    checkboxErr: {
+        margin: 8,
+        borderWidth: 2,
+        borderColor: 'red',
+        borderRadius: 5
+    },
     displayNone: {
         display: 'none',
     },
@@ -385,8 +477,8 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         marginTop: 22
-      },
-      modalView: {
+    },
+    modalView: {
         margin: 20,
         backgroundColor: "white",
         borderRadius: 20,
@@ -396,45 +488,45 @@ const styles = StyleSheet.create({
         alignItems: "center",
         shadowColor: "#000",
         shadowOffset: {
-          width: 0,
-          height: 2
+            width: 0,
+            height: 2
         },
         shadowOpacity: 0.25,
         shadowRadius: 4,
         elevation: 5
-      },
-      button: {
+    },
+    button: {
         borderRadius: 20,
         padding: 10,
         elevation: 2
-      },
-      buttonOpen: {
+    },
+    buttonOpen: {
         backgroundColor: "#F194FF",
-      },
-      buttonClose: {
+    },
+    buttonClose: {
         backgroundColor: "#2196F3",
-      },
-      textStyle: {
+    },
+    textStyle: {
         color: "white",
         fontWeight: "bold",
         textAlign: "center"
-      },
-      modalText: {
+    },
+    modalText: {
         marginBottom: 15,
         textAlign: "center"
-      },
-      imageStyle: {
+    },
+    imageStyle: {
         width: 40,
         height: 40
-      },
-      emptyPlace:{
+    },
+    emptyPlace:{
         width: 40,
         height: 40
-      },
-      positionRelative: {
+    },
+    positionRelative: {
         position: 'relative'
-        },
-      positionNumber: {
+    },
+    positionNumber: {
         position: 'absolute',
         left: '95%',
         top: '25%',
@@ -442,5 +534,9 @@ const styles = StyleSheet.create({
         color: '#ffffff',
         zIndex: 1,
         transform: [{ translateX: -10 }]
-      },
+    },
+    errorMassege: {
+        color: 'red',
+
+    }
   });
